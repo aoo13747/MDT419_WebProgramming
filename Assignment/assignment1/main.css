@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(255, 171, 60);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% auto 20%;
+    grid-gap: 15px;
+}
+
+.grid-container > div
+{
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(255, 249, 197);
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.flex_container > div{
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#header{
+    grid-column: 1 / span 3;    
+} 
+    
+#menu{
+    grid-column: 1 / span 1;
+}
+#menu h2{    
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(255, 194, 115);
+    border: 2px solid black;
+}
+#main1{
+    grid-column: 2/span 1 ;
+}
+#main2{
+    grid-column: 1/span 3 ;
+}
+#main2 img
+{
+    width: 50%;
+}
+#right{
+    grid-column: 3/span 1;    
+}
+
+#footer{
+    grid-column: 1/span 3 ;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+		 
+	}
+	#header{
+		grid-column: 1 / span 2;
+	}
+    #menu{
+        grid-column: 1 / span 2;
+    }    
+    #main1{
+        grid-column: 1 / span 2;
+    }
+    #main2{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+	#footer{
+        grid-column: 1 / span 1;
+	}
+    
+}
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: rgb(40, 183, 202);
+    }
+	.grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+		 
+	}
+	#header{
+		grid-column: 1 / span 1;
+	}
+    #menu{
+        grid-column: 1 / span 1;
+    }    
+    #main1{
+        grid-column: 1 / span 1;
+    }
+    #main2{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+	#footer{
+        grid-column: 1 / span 1;
+	}
+}
+
+
+h1{
+    text-align: center;
+    background-color: rgb(250, 198, 120);
+    border : 5px double rgb(255, 94, 0);
+    margin: 15px;
+    padding: 10px;   
+}
+h2{
+    background-color: rgb(241, 205, 0);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+hr{
+    height: 3px;
+    color: rgb(99, 99, 99);
+    background-color:rgb(99, 99, 99);
+}
+#right img{
+    width: 95%;
+    border: 3px solid black;    
+}
+ul{
+    background-color: wheat;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+ol{
+    background-color: wheat;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div{
+    text-align: center;
+}
+.Ingrediant{
+    text-align: left;
+}
+#ChickenSatayIngredients{
+    width: 30%;
+    border: 5px double orange;    
+}
+.Pic_Ingrediant{
+    text-align: center;    
+}
+#HowToDo{
+    width: 50%;
+    border: 5px double orange;
+}
+.HowTo{
+    text-align: center;
+}
+#ChickenSatayPic
+{
+    border: 5px double orange;    
+}
+a :link{
+    color: cornflowerblue;
+}
+a:visited{
+    color: #000000; 
+}
+a:hover{
+    color: rgb(0, 19, 128);
+}
+.Back-Button
+{
+    display: block;
+    width: fit-content;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgb(89, 166, 233);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:white;
+    margin: 10px auto;
+}

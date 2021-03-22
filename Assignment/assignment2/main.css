@@ -1,0 +1,49 @@
+.Textbox
+{
+    height: fit-content;
+    border: groove 5px rgb(133, 133, 133);
+    margin: 50px;    
+    text-align: center;
+}
+body
+{
+    background-color: rgb(255, 253, 221);
+}
+#main
+{
+    display: block;
+    width: 100%;    
+    text-align: center;
+    border: solid 3px black;
+    background-color: #f8f8ff;
+    width: 500px;   
+    margin: 10px auto;
+}
+textarea
+{
+    width: 400px;
+    height: 200px;
+}
+button
+{
+    font-size: medium;
+    background-color: greenyellow;
+    border: solid 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Back-Button
+{
+    display: block;
+    width: fit-content;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgb(89, 166, 233);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:white;
+    margin: 10px auto;
+}

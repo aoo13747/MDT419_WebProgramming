@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+	<body>
+		<div id="header">
+		<h1>Square Game</h1>
+		<h3>Delet All Box In 30 Second!</h3>
+		</div>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		<div class="Panal">
+		<fieldset id="controlPanal">
+			<legend id="control">Control Panal</legend>
+			Number of box: 
+			<input type="text" name="numbox" id="numbox">
+			<select name="color" id = "color">
+  				<option value="red">Red</option>
+  				<option value="blue">Blue</option>
+  				<option value="green">Green</option>
+			</select>
+			<button class="button" id="start">Start</button>
+			<div id="timerClock"> Timer:
+				<div id="clock"></div>
+			</div>			
+		</fieldset>	
+		<a href="../../assignment.html" class="Back-Button">Back to Assignment</a>	
+		</div>
+
+		<div id="game-container">
+			<div id="game-layer"></div>
+		</div>
+		<div id= "bottom">
+		<h4>All You Need To Do Just Click!!</h4>
+		</div>
+		
+	</body>
+</html>

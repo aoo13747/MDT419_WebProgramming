@@ -1,0 +1,48 @@
+body
+{
+    font-family: cursive;
+    background-color: cornflowerblue;
+}
+#myForm
+{
+    margin: 5px;
+}
+legend
+{
+    font-size: 30px;  
+    position: relative;     
+    top: 5px; 
+}
+fieldset
+{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    width: fit-content;
+    position:relative;
+    border: double black 5px;    
+}
+.button
+{
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px;
+    font-family: cursive;
+    font-size: medium;
+}
+.Back-Button
+{
+    display: block;
+    width: fit-content;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgb(89, 166, 233);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:white;
+    margin: 10px auto;
+}
